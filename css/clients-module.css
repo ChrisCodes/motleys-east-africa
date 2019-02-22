@@ -1,0 +1,39 @@
+.our-clients {
+        float: left;
+    width: 100%;
+    background: #f7f7f7;
+}
+
+.brands-list {
+        float: left;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+
+.brands-list li {
+   display: inline-block;
+   margin: 0px 5px;
+   padding: 0;
+}
+
+.brands-list li img {
+height:70px;
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+    filter: grayscale(100%);
+}
+
+.brands-list li img:hover {
+   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+    filter: grayscale(0%);
+}
+
+
+@media screen and (max-width:481px){
+    .brands-list {
+  padding-top:20px;
+}
+}

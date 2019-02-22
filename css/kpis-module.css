@@ -1,0 +1,62 @@
+
+.our-kpis {
+    float: left;
+    width: 100%;
+    background: url("../images/banners/kpis-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+.our-kpis .sect-overlay {
+      float: left;
+    width: 100%;
+    background: rgba(0,0,0,0.8);
+}
+
+
+.kpi-image {
+    width: 100px;
+    overflow: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 50%;
+
+}
+
+
+.our-kpis .threecolumn {
+    padding-bottom: 50px;
+     padding-top: 20px;
+}
+
+
+.our-kpis .threecolumn:hover .kpi-image {
+-webkit-transform: translateY(5px);
+        transform: translateY(5px);
+}
+
+
+.our-kpis .threecolumn:hover .h-light {
+   color:#0ba8be;
+}
+
+
+@media screen and (max-width:481px){
+.kpi-image {
+    width: 100px;
+
+}
+
+.our-kpis .threecolumn .h-light {
+   color:#0ba8be;
+}
+
+
+
+
+
+}

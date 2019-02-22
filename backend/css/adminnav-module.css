@@ -1,0 +1,102 @@
+.admin-head {
+ float: left;
+ height: 70px;
+ background: #001217;
+ position: relative;
+}
+
+
+
+.admin-head .admin-image {
+ float: left;
+ height: 40px;
+ margin: 15px 0px;
+width: 40px;
+ border: 2px solid #fff;
+ box-sizing: border-box;
+}
+
+.admin-head .admin-label {
+ float: left;
+ height: 100%;
+ line-height: 70px;
+ color: #ddd;
+ padding: 0px;
+ margin-left: 10px;
+ clear: none;
+ width: auto;
+}
+
+
+.admin-head .admin-label:hover {
+color: #fff;
+}
+
+
+
+.admin-head .nav-icon {
+ float: right;
+ height: 100%;
+ padding: 15px 0px;
+}
+
+
+.admin-nav {
+    position: absolute;
+    top: 70px;
+    right: -300px;
+    width: 300px;
+    right: 6%;
+    background: #0ba8be;
+    height: 0px;
+    opacity:0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.admin-nav .nav-list {
+  float: left;
+  width: 100%;
+  list-style: none;
+  color: #fff;
+  padding: 20px;
+}
+
+
+
+.admin-nav .nav-list a {
+  float: left;
+  width: 100%;
+  list-style: none;
+  color: #fff;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ccccff;
+  margin-bottom:5px;
+}
+
+
+.admin-nav .nav-list a:hover {
+padding-left: 5px;
+  border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+@media screen and (max-width: 481px){
+    .admin-nav {
+    width: 100%;
+    right: 0px;
+    
+}
+
+
+
+.admin-nav .nav-list {
+  padding: 20px 5%;
+}
+
+
+
+
+}

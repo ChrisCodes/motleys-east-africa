@@ -1,0 +1,68 @@
+.company-profile {
+    float: left;
+    width: 100%;
+
+}
+
+
+.company-profile .mission {
+    background: url("../images/banners/vision.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.company-profile .vision {
+    background: url("../images/banners/mission.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.company-profile .mission .stat-overlay {
+    background: rgba(0,18,23,0.8);
+        float: left;
+    width: 100%;
+    min-height: 400px;
+    color:#fff;
+    padding: 20px;
+}
+
+
+.company-profile .mission .stat-overlay:hover {
+    background: rgba(0,18,23,0.95);
+        float: left;
+    width: 100%;
+    min-height: 400px;
+    color:#fff;
+    padding: 20px;
+}
+
+.company-profile .vision .stat-overlay {
+    background: rgba(11,168,190,0.7);
+        float: left;
+    width: 100%;
+    min-height: 400px;
+    color:#fff;
+    padding: 20px;
+}
+
+
+.company-profile .vision .stat-overlay:hover {
+    background: rgba(11,168,190,0.9);
+        float: left;
+    width: 100%;
+    min-height: 400px;
+    color:#fff;
+    padding: 20px;
+}
+
+
+.stat-icon {
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    display: block;
+}
+
+

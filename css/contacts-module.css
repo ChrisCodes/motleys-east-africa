@@ -1,0 +1,350 @@
+.our-contacts {
+    float: left;
+    width: 100%;
+    position: relative;
+    background: url("../images/icons/contact-pattern.png");
+    background: #fff;
+}
+
+
+.our-contacts .message-sect {
+    float: left;
+     min-height:700px;
+}
+
+
+.our-contacts .message-sect .pad-mform {
+    float: left;
+    width: 100%;
+    border-right: 400px solid  #001217;
+}
+
+.our-contacts .contact-sect {
+    position: absolute;
+    width: 400px;
+    color: #fff;
+       background:#001217;
+             padding-left: 20px;
+    right:6%;
+    bottom: 0px;
+
+}
+
+
+.our-contacts .contact-sect img {
+height: 30px;
+}
+
+.our-contacts .message-form {
+       float: left;
+    width: 90%;
+}
+
+
+.our-contacts .message-form .tfield {
+       float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #c7f5fc;
+    padding: 10px;
+    background: #c7f5fc;
+    color: #001217;
+    font-size: 16px;
+}
+
+
+
+
+.our-contacts .message-form .tfield.ta {
+min-height: 100px;
+max-width: 100%;
+}
+
+
+.our-contacts .message-form .tfield:focus {
+    border: 2px solid #001217;
+                background: #001217;
+                color: #fff;
+}
+
+
+.our-contacts .message-form .tfield:hover {
+  border: 2px solid #012732;
+                background: #012732;
+                color: #fff;
+}
+
+
+
+.our-contacts .message-form .sbutton {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    padding: 10px 10px;
+    background: #fff;
+}
+
+
+.our-contacts .message-form .sbutton:hover {
+border: 2px solid #012732;
+        background: #012732;
+        border-bottom: 5px solid #000;
+}
+
+
+
+.one-det {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-left: 60px;
+    min-height: 40px;
+    margin-bottom: 15px;
+}
+
+
+
+.one-det .det-image {
+position: absolute;
+top:0px;
+left: 10px;
+
+}
+
+.one-det .normal-text {
+padding: 5px 0px;
+
+}
+
+
+.contact-sect .soc-list {
+   float: left;
+    width: 100%;
+    list-style: none;
+    padding-left: 10px;
+}
+
+
+
+.contact-sect .soc-list li {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+
+.contact-sect .soc-list li:hover {
+-webkit-transform: translateY(-3px);
+        transform: translateY(-3px);
+}
+
+
+
+
+.contact-sect .contact-pad {
+    padding-bottom: 20px;
+}
+
+.comp-back {
+    position: absolute;
+    right: 0px;
+    width: 6%;
+    bottom: 0px;
+    background: #001217;
+    top: 0px;
+}
+
+
+.our-contacts .contactp1, .our-contacts .contactp2 {
+float: left;
+width: 100%;
+}
+
+
+
+.our-contacts ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #001217;
+}
+.our-contacts ::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.our-contacts :-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.our-contacts :-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+
+
+
+
+.our-contacts .tfield:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ddd;
+}
+.our-contacts .tfield:hover::-moz-placeholder { /* Firefox 19+ */
+  color: #ddd;
+}
+.our-contacts .tfield:hover:-ms-input-placeholder { /* IE 10+ */
+  color: #ddd;
+}
+.our-contacts .tfield:hover:-moz-placeholder { /* Firefox 18- */
+  color: #ddd;
+}
+
+
+
+
+
+
+.our-contacts .tfield:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ddd;
+}
+.our-contacts .tfield:focus::-moz-placeholder { /* Firefox 19+ */
+  color: #ddd;
+}
+.our-contacts .tfield:focus:-ms-input-placeholder { /* IE 10+ */
+  color: #ddd;
+}
+.our-contacts .tfield:focus:-moz-placeholder { /* Firefox 18- */
+  color: #ddd;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+.our-contacts .message-sect {
+    float: left;
+     min-height:auto;
+}
+
+
+.our-contacts .message-sect .medium-title {
+    text-align: center;
+}
+
+
+.our-contacts .message-sect .pad-mform {
+    float: left;
+    width: 100%;
+    border: none;
+}
+
+.our-contacts .contact-sect {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding-right: 0px;
+        padding-left: 0px;
+    right:auto;
+    bottom: auto;
+
+}
+
+
+.comp-back {
+    display: none;
+}
+
+
+.our-contacts .message-form {
+       float: none;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*
+.our-contacts .medium-title {
+    text-align: center;
+}
+
+
+.contact-sect .soc-list {
+    text-align: center;
+    padding: 0px;
+}
+.contact-sect .soc-list li {
+  margin: 0px 10px;
+}
+*/
+
+.contact-sect .contact-pad {
+    padding-bottom: 30px;
+}
+
+
+
+/*
+.one-det {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-left: 0px;
+    min-height: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+.one-det .det-image {
+position: relative;
+top:auto;
+left: auto;
+margin: 10px auto;
+display: block;
+
+}
+
+
+*/
+
+
+
+.our-contacts .contactp1, .our-contacts .contactp2 {
+float: left;
+width: 50%;
+}
+
+
+
+
+.our-contacts .contactp2 {
+float: right;
+width: 300px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 769px){
+
+
+.our-contacts .message-form {
+    width: 100%;
+}
+
+.our-contacts .contactp1, .our-contacts .contactp2 {
+float: left;
+width: 100%;
+}
+
+
+
+}
+

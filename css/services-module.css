@@ -1,0 +1,222 @@
+.our-services {
+    float: left;
+    width: 100%;
+}
+
+.serv-overlay {
+    float: left;
+    width: 100%;
+    background: rgba(255,255,255,1);
+    padding: 20px;
+    min-height: 350px;
+      -webkit-transition: .6s;
+      transition: .6s;
+}
+
+
+.our-services .threecolumn {
+    background:#ccc;
+    -webkit-transition: .6s;
+    transition:.6s;
+}
+
+.threecolumn:hover .serv-overlay {
+    -webkit-transition: .6s;
+    transition: .6s;
+    background: rgba(11,168,190,0.8);
+    background: -webkit-linear-gradient(bottom,rgba(0,18,23,0.9) 1%,rgba(11,168,190,0.5) 100%);
+    background: linear-gradient(0deg,rgba(0,18,23,0.9) 1%,rgba(11,168,190,0.5) 100%);
+}
+
+
+.serv-overlay:hover p {
+   color:#fff;
+}
+
+ .cs .serv-overlay:hover .serv-ic {
+   background:url("../images/icons/csiconw.png");
+background-size: 100% 100%;
+}
+
+
+
+.our-services .threecolumn.cs {
+background:url("../images/banners/csserv.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+.serv-ic {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top:20px;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+
+.our-services .cs .serv-ic {
+background: url("../images/icons/csiconb.png");
+background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+ .ad .serv-overlay:hover .serv-ic {
+   background:url("../images/icons/adiconw.png");
+background-size: 100% 100%;
+}
+
+
+
+.our-services .threecolumn.ad {
+background:url("../images/banners/adserv.png");
+background-size: cover;
+background-position: center;
+}
+
+
+.our-services .ad .serv-ic {
+background: url("../images/icons/adiconb.png");
+background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .em .serv-overlay:hover .serv-ic {
+   background:url("../images/icons/eviconw.png");
+background-size: 100% 100%;
+}
+
+
+
+.our-services .threecolumn.em {
+background:url("../images/banners/emserv.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+.our-services .em .serv-ic {
+background: url("../images/icons/eviconb.png");
+background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+ .ma .serv-overlay:hover .serv-ic {
+   background:url("../images/icons/maiconw.png");
+background-size: 100% 100%;
+}
+
+
+
+.our-services .threecolumn.ma {
+background:url("../images/banners/maserv.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+.our-services .ma .serv-ic {
+background: url("../images/icons/maiconb.png");
+background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+ .pm .serv-overlay:hover .serv-ic {
+   background:url("../images/icons/pmiconw.png");
+background-size: 100% 100%;
+}
+
+
+
+.our-services .threecolumn.pm {
+background:url("../images/banners/pmserv.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+.our-services .pm .serv-ic {
+background: url("../images/icons/pmiconb.png");
+background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ .dm:hover .serv-overlay .serv-ic {
+   background:url("../images/icons/dmiconw.png");
+background-size: 100% 100%;
+}
+
+.our-services .threecolumn.dm {
+background:url("../images/banners/dmserv.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+.our-services .dm .serv-ic {
+background: url("../images/icons/dmiconb.png");
+background-size: 100% 100%;
+}
+
+
+
+@media screen and (max-width:769px){
+    .serv-overlay {
+    padding: 10px;
+ 
+}
+}
+
+
+@media screen and (max-width:481px){
+    .serv-overlay {
+    padding: 10px 0px;
+ 
+}
+}

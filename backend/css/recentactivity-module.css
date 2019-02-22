@@ -1,0 +1,119 @@
+.recent-activity {
+    float: left;
+    width: 100%;
+    background: #001217;
+    color: #fff;
+}
+
+
+
+.recent-activity .recent-callbacks {
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+}
+
+
+ .one-callback {
+    float: left;
+    width: 100%;
+    padding:20px 0px;
+    border-bottom: 1px solid #015c75;
+    margin-bottom: 20px;
+    -webkit-transition: .6s;
+    transition: .6s;
+    height: auto;
+}
+
+
+.req-det {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding-left: 40px;
+    min-height: 30px;
+    margin-bottom: 10px;
+
+}
+
+.req-det img {
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 30px;
+}
+
+.req-det .normal-text {
+    line-height: 30px;
+    padding:0px;
+}
+
+
+.recent-messages {
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+      border-left: 1px solid #02abda;
+}
+
+
+.recent-messages .message-text {
+    background: #02abda;
+    float: left;
+    width: 100%;
+    margin-bottom:10px;
+    padding: 20px;
+}
+
+
+.recent-messages .medium-title {
+    text-align: center;
+}
+
+
+
+    .recent-activity .medium-title {
+    text-align: center;
+    padding-bottom:10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+
+
+.temp-footer {
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    background: #001217;
+}
+
+
+.foot-none {
+    width: 100%;
+    text-align: center;
+     padding: 20px 0px;
+     border-top: 1px solid #05889a;
+     color: #05889a;
+     font-size: 13px;
+     margin: 0 auto;
+}
+
+
+@media screen and (max-width:769px){
+    .recent-activity .recent-callbacks, .recent-messages {
+        float: left;
+        width: 100%;
+        margin-bottom:50px;
+        padding:20px 0px;
+        border: none
+    }
+
+
+    .recent-activity .medium-title {
+    text-align: center;
+    padding-bottom:5px;
+    border-bottom: 1px solid #fff;
+        margin-bottom: 0px;
+}
+}

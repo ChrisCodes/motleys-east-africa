@@ -1,0 +1,175 @@
+
+.site-header {
+    float: left;
+    width: 100%;
+    height: 70px;
+    background:#001217;
+    color: #fff;
+    padding: 5px 0px;
+    position: fixed;
+    z-index:10;
+    box-shadow: 0px 1px 100px rgba(11,168,190,0.3);
+}
+
+
+.site-logo {
+    float: left;
+    height: 60px;
+    display:block;
+}
+
+
+.desk-search-icon, .mobile-menu-icon {
+    float: right;
+    height: 60px;
+       padding: 10px 0px;
+}
+
+.desk-nav {
+     float: right;
+     height: 100%;
+     list-style: none;
+     text-decoration:none;
+     color:#fff;
+     padding: 10px 0px;
+}
+
+.desk-nav a {
+     float: right;
+     height: 100%;
+     padding: 0px 15px;
+     text-decoration:none;
+     color:#fff; 
+
+}
+
+.desk-nav li {
+     float: right;
+     height: 100%;
+     margin: 0px 15px;
+     text-decoration:none;
+     color:#fff; 
+     line-height:40px;
+     position: relative;
+     font-size: 14px;
+}
+
+.desk-nav li:hover {
+
+     color:#0ba8be; 
+     line-height:40px;
+
+}
+
+
+
+.desk-nav li:after {
+     position: absolute;
+     display: block;
+     content: "";
+     height:2px;
+     width: 0px;
+     bottom:0px;
+     left: 0px;
+     background: #0ba8be;
+     -webkit-transition: .6s;
+     transition: .6s;
+}
+
+.desk-nav li:hover:after {
+  
+     width: 100%;
+
+}
+
+.desk-search {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    background:#0ba8be;
+    padding:0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+
+
+.search-cover {
+display: block;
+width: 100%;
+border-radius: 3px;
+border: 1px solid #ccc;
+height: 40px;
+position: relative;
+padding-right: 40px;
+}
+
+
+.s-term {
+float: left;
+width: 100%;
+padding: 0px 10px;
+height: 100%;
+}
+
+.s-button {
+    position: absolute;
+    right: 0px;
+    top:0px;
+    bottom:0px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background:url("http://localhost/motleys/images/icons/dsicon.png");
+    background-size: 100% 100%;
+    background-position: centre;
+    background-repeat: no-repeat;
+    width: 40px;
+
+}
+
+
+.mobile-nav {
+    position: absolute;
+    background:#0ba8be;
+    top:70px;
+    left: 0px;
+    height: 0px;
+    width: 100%;
+    list-style: none;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    overflow: hidden;
+
+}
+
+
+.mobile-nav li {
+ float: left;
+ width: 100%;
+ padding:15px 0px;
+ border-bottom: 1px solid #73e9f9;
+}
+
+
+.mobile-nav li:hover {
+color: #fff;
+padding-left:10px;
+ border-bottom: 1px solid #fff;
+}
+
+.mobile-nav .house-search {
+border:none;
+padding:25px 0px;
+}
+
+.mobile-nav .house-search:hover {
+padding-left:0px;
+border:none;
+}
+
+
+.mobile-nav a {
+    color: #fff;
+    text-decoration: none;
+
+}

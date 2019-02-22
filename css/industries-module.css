@@ -1,0 +1,143 @@
+.our-industries {
+      float: right;
+    width: 100%;
+}
+
+.ind-list {
+      float: right;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.ind-list .fourcolumn {
+    float: none;
+    display: inline-block;
+}
+
+.ind-list .inner-flex {
+    color: #fff;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     background: -webkit-linear-gradient(bottom,rgba(0,18,23,0.9) 1%,rgba(11,168,190,0.5) 100%);
+     background: linear-gradient(0deg,rgba(0,18,23,0.9) 1%,rgba(11,168,190,0.5) 100%);
+}
+
+
+.ind-list .inner-flex .wrap-ind-name {
+float: left;
+width: 100%;
+height: 100%;
+height:50%;
+position: relative;
+}
+
+
+.ind-list .inner-flex:hover {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.ind-list .inner-flex .quote-text {
+position: absolute;
+bottom: 0px;
+    width: 100%;
+    padding:5px;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    word-wrap: break-word;
+}
+
+
+
+.ind-list .foodbev {
+    background:url("../images/banners/foodbeverages.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.ind-list .pub {
+    background:url("../images/banners/publishing.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.ind-list .cop {
+    background:url("../images/banners/corporate.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.ind-list .ret {
+    background:url("../images/banners/retail.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.ind-list .fmcg {
+    background:url("../images/banners/fmcg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.ind-list .health {
+    background:url("../images/banners/healthcare.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.ind-list .auto {
+    background:url("../images/banners/automotive.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.ind-list .hos {
+    background:url("../images/banners/hospitality.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ind-list .ev {
+    background:url("../images/banners/events.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.ind-list .pharm {
+    background:url("../images/banners/pharmacy1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+@media screen and (max-width: 769px){
+.ind-list .inner-flex {
+opacity: 1;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  background: -webkit-linear-gradient(bottom,rgba(0,18,23,0.9) 1%,rgba(11,168,190,0.1) 100%);
+  background: linear-gradient(0deg,rgba(0,18,23,0.9) 1%,rgba(11,168,190,0.1) 100%);
+}
+
+}

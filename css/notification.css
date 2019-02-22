@@ -1,0 +1,90 @@
+.not-body {
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    padding-top:70px;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+
+.not-body .inner-pad {
+  height:100%;
+  background: rgba(0,18,23,0.6);
+  padding-top:0px;
+  padding-bottom: 20px;
+}
+
+.not-body .inner-pad .add-pad {
+    height:100%;
+}
+
+.not-body .inner-pad .add-pad .nholder {
+    position: relative;
+    height:100%;
+ 
+}
+
+
+
+
+
+.notification {
+    position: absolute;
+    bottom:10px;
+    right: 0px;
+    width: 400px;
+    background:#fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.notification img {
+float: left;
+width:100%;
+margin-bottom: 10px;
+}
+
+
+.notification .medium-normal {
+background: #fff;
+color: #333;
+}
+
+.notification #close-not {
+width:80px;
+margin-top:30px;
+padding:10px 0px;
+cursor: pointer;
+}
+
+
+@media screen and (max-width:481px){
+.notification {
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    width: 100%;
+    background:#fff;
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.notification img {
+display: none;
+}
+
+.notification .bottom-margin {
+    margin-bottom: 10px;
+}
+
+
+}
+
+
+
+

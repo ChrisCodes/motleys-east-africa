@@ -1,0 +1,48 @@
+.about-brief {
+    float: left;
+    width: 100%;
+    background: #eaeaea;
+}
+
+.about-image img {
+    width: 300px;
+    margin: 0 auto;
+    overflow: auto;
+    display:block;
+}
+
+.about-text .normal-text {
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:769px){
+
+.c-later {
+    display: inline-block;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-image img {
+    width: 250px;
+    margin: 0 auto;
+    overflow: auto;
+    display:block;
+}
+
+}
+
+
+@media screen and (max-width: 350px){
+    .about-image img {
+    width: 100%;
+    }
+}
